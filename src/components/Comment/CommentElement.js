@@ -82,15 +82,17 @@ export const FooterCommentContainer = styled.div`
 
 //comment header
 export const CommentRegisterContainer = styled.div`
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+
   min-height: 60px;
   width: 100%;
   background: ${({ theme }) => theme.colors.white1};
   margin-bottom: 10px;
   border-radius: 5px;
   padding: 10px 20px 12px;
-  display: flex;
-  justify-content: space-between !important;
-  align-items: center;
+  cursor: pointer;
 
   &&& .ant-rate {
     /* font-size: 0.625rem; */

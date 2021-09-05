@@ -10,7 +10,7 @@ import TabsDayOfWeek from "./TabsDayOfWeek/TabsDayOfWeek";
 
 const { TabPane } = Tabs;
 
-export default function TabCinemaShowTimes(props) {
+export default function TabsDetailCinemas(props) {
   const { cinemaId } = props;
 
   const responsive = useBreakpoints();

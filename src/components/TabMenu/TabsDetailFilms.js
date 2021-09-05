@@ -7,7 +7,7 @@ import * as S from "./TabMenuElement";
 import TabsDayOfWeek from "./TabsDayOfWeek/TabsDayOfWeek";
 const { TabPane } = Tabs;
 
-export default function TabDetailShowTimes(props) {
+export default function TabsDetailFilms(props) {
   const { filmShowTimes } = useSelector((state) => state.CinemaReducer);
   const responsive = useBreakpoints();
 

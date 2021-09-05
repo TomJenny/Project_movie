@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import "react-modal-video/scss/modal-video.scss";
 import Comment from "../../../components/Comment/Comment";
 import { TitleTabsStyled } from "../../../components/Styles/Title";
-import TabCinemaShowTimes from "../../../components/TabMenu/TabCinemaShowTimes";
+import TabsDetailCinemas from "../../../components/TabMenu/TabsDetailCinemas";
 import * as S from "./TabsElement";
 import TabMenuDetailCinemaInfo from "./TabsInfo";
 
@@ -19,7 +19,7 @@ export default function DetailCinemaTabs(props) {
           <TabMenuDetailCinemaInfo cinemaBranch={cinemaBranch} />
         </TabPane>
         <TabPane tab={<TitleTabsStyled>show time</TitleTabsStyled>} key="2">
-          <TabCinemaShowTimes cinemaId={cinemaId} />
+          <TabsDetailCinemas cinemaId={cinemaId} />
         </TabPane>
         <TabPane tab={<TitleTabsStyled>reviews</TitleTabsStyled>} key="3">
           <Comment arrayCommentById={arrayCommentById} id={cinemaId} />

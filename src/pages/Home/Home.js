@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import MultiSlickHome from "../../components/Slick/MultiSlickHome";
 import { BackTopStyled } from "../../components/Styles/BackTop";
 import { useBreakpoints } from "../../components/Styles/ResponsiveBreakpoints";
-import TabHomeShowTimes from "../../components/TabMenu/TabHomeShowTimes";
+import TabsHomeCineplex from "../../components/TabMenu/TabsHomeCineplex";
 import { getAPIListCinemaShowTimeAction } from "../../redux/actions/CinemaAction";
 import { getAPIFilmAction } from "../../redux/actions/FilmAction";
 import {
@@ -47,7 +47,7 @@ export default function Home(props) {
         <MultiSlickHome arrayFilm={arrayFilm} />
       </div>
       <div id="Cineplex">
-        <TabHomeShowTimes />
+        <TabsHomeCineplex />
       </div>
       <div id="News">
         <TabNews />

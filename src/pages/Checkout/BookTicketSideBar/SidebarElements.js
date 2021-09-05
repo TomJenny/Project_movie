@@ -68,7 +68,7 @@ export const SideBarImg = styled.div`
   display: block;
   margin: 0 auto;
 
-  width: 150px;
+  width: 130px;
   height: 180px;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 `;

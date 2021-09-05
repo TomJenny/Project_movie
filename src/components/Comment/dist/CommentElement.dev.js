@@ -56,7 +56,7 @@ function _templateObject9() {
 }
 
 function _templateObject8() {
-  var data = _taggedTemplateLiteral(["\n  min-height: 60px;\n  width: 100%;\n  background: ", ";\n  margin-bottom: 10px;\n  border-radius: 5px;\n  padding: 10px 20px 12px;\n  display: flex;\n  justify-content: space-between !important;\n  align-items: center;\n\n  &&& .ant-rate {\n    /* font-size: 0.625rem; */\n    color: ", "!important;\n  }\n  & .ant-row > span {\n    line-height: 36px;\n    color: ", ";\n  }\n\n  ", " {\n    flex-direction: column;\n    align-items: center;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: flex;\n  justify-content: space-between !important;\n  align-items: center;\n\n  min-height: 60px;\n  width: 100%;\n  background: ", ";\n  margin-bottom: 10px;\n  border-radius: 5px;\n  padding: 10px 20px 12px;\n  cursor: pointer;\n\n  &&& .ant-rate {\n    /* font-size: 0.625rem; */\n    color: ", "!important;\n  }\n  & .ant-row > span {\n    line-height: 36px;\n    color: ", ";\n  }\n\n  ", " {\n    flex-direction: column;\n    align-items: center;\n  }\n"]);
 
   _templateObject8 = function _templateObject8() {
     return data;

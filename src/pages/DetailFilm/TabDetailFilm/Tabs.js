@@ -3,7 +3,7 @@ import React from "react";
 import "react-modal-video/scss/modal-video.scss";
 import Comment from "../../../components/Comment/Comment";
 import { TitleTabsStyled } from "../../../components/Styles/Title";
-import TabDetailShowTimes from "../../../components/TabMenu/TabDetailShowTimes";
+import TabsDetailFilms from "../../../components/TabMenu/TabsDetailFilms";
 import * as S from "./TabsElement";
 import TabMenuDetailInfo from "./TabsInfo";
 
@@ -18,7 +18,7 @@ export default function TabsMenuDetailFilm(props) {
           <TabMenuDetailInfo filmShowTimes={filmShowTimes} />
         </TabPane>
         <TabPane tab={<TitleTabsStyled>show time</TitleTabsStyled>} key="2">
-          <TabDetailShowTimes />
+          <TabsDetailFilms />
         </TabPane>
         <TabPane tab={<TitleTabsStyled>reviews</TitleTabsStyled>} key="3">
           <Comment arrayCommentById={arrayCommentById} id={filmID} />

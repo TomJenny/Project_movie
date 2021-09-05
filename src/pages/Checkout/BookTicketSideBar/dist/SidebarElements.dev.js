@@ -118,7 +118,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = _taggedTemplateLiteral(["\n  background: url(", "), url(", ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center;\n  filter: contrast(130%);\n  display: block;\n  margin: 0 auto;\n\n  width: 150px;\n  height: 180px;\n  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);\n"]);
+  var data = _taggedTemplateLiteral(["\n  background: url(", "), url(", ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center;\n  filter: contrast(130%);\n  display: block;\n  margin: 0 auto;\n\n  width: 130px;\n  height: 180px;\n  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;

@@ -7,7 +7,7 @@ import { TitleSection } from "../Styles/Title";
 import * as S from "./TabMenuElement";
 import TabsCinema from "./TabsCinema/TabsCinema";
 
-export default function TabHomeShowTimes(props) {
+export default function TabsHomeCineplex(props) {
   const { arrayCinemaShowTimes } = useSelector((state) => state.CinemaReducer);
 
   const responsive = useBreakpoints();
