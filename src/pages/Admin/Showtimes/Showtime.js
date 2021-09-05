@@ -22,7 +22,6 @@ import {
 } from "./ShowtimesElement";
 
 export default function Showtime(props) {
-  const [form] = Form.useForm();
   const [state, setState] = useState({
     heThongRapChieu: [],
     cumRapChieu: [],
@@ -47,7 +46,7 @@ export default function Showtime(props) {
     showtime.ngayChieuGioChieu = values.ngayChieuGioChieu.format(
       "DD/MM/YYYY hh:mm:ss"
     );
-    console.log(showtime);
+
     try {
       const result = await manageBoxOfficeService
         .postCreateSchedule(showtime)
@@ -118,7 +117,7 @@ export default function Showtime(props) {
       };
     });
   };
-  console.log(handleOptionCinema());
+
   const handleChangeCinemaBranch = (value) => {
     setLabelValue({
       ...labelValue,
@@ -155,6 +154,7 @@ export default function Showtime(props) {
             <AdminShowtimeImage
               src={film.hinhAnh || PUBLIC_URL + "/img/Error/errorImage.png"}
               alt="..."
+              fallback={PUBLIC_URL + "/img/Error/errorImage.png"}
             />
             <AdminShowTimeFilmName>{film.tenPhim}</AdminShowTimeFilmName>
           </Col>
