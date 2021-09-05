@@ -1,14 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import { DOMAIN } from "./utils/setting";
+// ant design css
+import "antd/dist/antd.css";
+import React from "react";
+import ReactDOM from "react-dom";
+//redux
+import { Provider } from "react-redux";
+import "slick-carousel/slick/slick-theme.css";
+// slick react
+import "slick-carousel/slick/slick.css";
+//styled components
+import { ThemeProvider } from "styled-components";
+import App from "./App";
+import GlobalStyle from "./components/Styles/GlobalStyles";
+import theme from "./components/Styles/Theme";
+import { store } from "./redux/configStore";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <ThemeProvider theme={theme}>
+    <Provider store={store}>
+      <GlobalStyle />
+      <App />
+    </Provider>
+  </ThemeProvider>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,4 @@
+export const GET_FILMS = "GET_FILMS";
+export const SET_FILM_SHOW_TIMES = "GET_FILM_SHOW_TIMES";
+export const SET_FILM_COMMING_SOON = "GET_FILM_COMMING_SOON";
+export const SET_FILM_DETAIL = "SET_FILM_DETAIL";
