@@ -84,7 +84,6 @@ export const getAccountInfo = (accountName) => {
         accountInfo: result.data,
       };
       dispatch(action);
-      console.log(result.data);
     } catch (error) {
       console.log("error", error.response?.data);
     }

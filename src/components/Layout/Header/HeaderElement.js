@@ -75,7 +75,7 @@ export const HeaderMenu = styled(Menu)`
   font-size: 15px !important;
   background-color: transparent;
   border: none;
-  width: 480px;
+  width: 490px;
 
   ${(props) =>
     props.ischeckout || props.isuserprofile ? { display: "none" } : null}

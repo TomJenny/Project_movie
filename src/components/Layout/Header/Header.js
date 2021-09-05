@@ -105,7 +105,7 @@ export default function HeaderComponent(props) {
           ) : null}
           <S.HeaderMenuItem key="3">
             <S.HeaderMainMenu
-              to="Cinema"
+              to="Cineplex"
               activeClass="active"
               spy={true}
               smooth={true}
@@ -113,7 +113,7 @@ export default function HeaderComponent(props) {
               duration={500}
               onClick={() => handleButtonToggle()}
             >
-              CINEMA
+              CINEPLEX
             </S.HeaderMainMenu>
           </S.HeaderMenuItem>
           <S.HeaderMenuItem key="4">

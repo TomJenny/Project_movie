@@ -2,7 +2,7 @@ import {
   LockOutlined,
   MailOutlined,
   PhoneOutlined,
-  UserOutlined
+  UserOutlined,
 } from "@ant-design/icons";
 import { Form, Row } from "antd";
 import React, { useState } from "react";
@@ -13,7 +13,7 @@ import FloatLabel from "../../components/Styles/FloatLabel/FloatLabel";
 import { FormItemStyled } from "../../components/Styles/Form";
 import {
   InputPasswordStyled,
-  InputStyled
+  InputStyled,
 } from "../../components/Styles/Input";
 import { UserProfileRegister } from "../../components/_core/models/User";
 import { postAPIUserInfoSignIn } from "../../redux/actions/UserAction";
@@ -59,7 +59,6 @@ export default function Register() {
     userProfile.email = values.email;
     userProfile.soDt = values.soDt;
     userProfile.hoTen = values.hoTen;
-    console.log("Received values of form:", userProfile);
 
     dispatch(postAPIUserInfoSignIn(userProfile));
   };

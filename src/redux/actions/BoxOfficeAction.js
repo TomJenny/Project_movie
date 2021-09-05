@@ -54,22 +54,3 @@ export const bookTicketAction = (bookTicketInfo) => {
     }
   };
 };
-
-// export const bookSeatsAction = (seat, char, maLichChieu) => {
-//   return async (dispatch, getState) => {
-//     await dispatch({
-//       type: GET_BOOKING_SEATS_USER,
-//       seat: seat,
-//     });
-
-//     let danhSachGheDangDat = getState().BoxOfficeReducer.arrSeatIsBooking;
-//     let taiKhoan = getState().UserReducer.userLogin.taiKhoan;
-//     console.log(taiKhoan);
-//     console.log(maLichChieu);
-
-//     // danhSachGheDangDat = JSON.stringify(danhSachGheDangDat);
-//     console.log(danhSachGheDangDat);
-
-//     connection.invoke("datGhe", taiKhoan, danhSachGheDangDat, maLichChieu);
-//   };
-// };

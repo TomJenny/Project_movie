@@ -43,8 +43,6 @@ export default function AddUser() {
     userProfile.maLoaiNguoiDung = values.maLoaiNguoiDung;
     userProfile.hoTen = values.hoTen;
 
-    console.log("Received values of form:", userProfile);
-
     dispatch(postAPINewsUserAction(userProfile));
   };
 

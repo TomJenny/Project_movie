@@ -20,7 +20,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _templateObject6() {
-  var data = _taggedTemplateLiteral(["\n      width: 100%;\n\n      &.ant-input {\n        color: solid ", ";\n      }\n\n      &.ant-input:focus {\n        border-color: ", ";\n      }\n    "]);
+  var data = _taggedTemplateLiteral(["\n      width: 100%;\n\n      &.ant-input {\n        color: ", ";\n      }\n\n      &.ant-input:focus {\n        border-color: ", ";\n      }\n    "]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -30,7 +30,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = _taggedTemplateLiteral(["\n  &.ant-input {\n    background: transparent !important;\n    color: solid ", ";\n    border-left: none;\n    border-top: none;\n    border-right: none;\n    box-shadow: none!important;\n    border-bottom: 2px solid ", ";\n    width: 85%;\n  \n\n  &&& span.anticon.ant-input-clear-icon {\n    color: ", ";\n  }\n\n  &.ant-input:focus {\n    border-color: ", ";\n\n  }\n\n  ", "\n"]);
+  var data = _taggedTemplateLiteral(["\n  &.ant-input {\n    background: transparent !important;\n    color:  ", ";\n    border-left: none;\n    border-top: none;\n    border-right: none;\n    box-shadow: none!important;\n    border-bottom: 2px solid ", ";\n    width: 85%;\n  \n\n  &&& span.anticon.ant-input-clear-icon {\n    color: ", ";\n  }\n\n  &.ant-input:focus {\n    border-color: ", ";\n\n  }\n\n  ", "\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -105,7 +105,7 @@ var TextAreaStyled = (0, _macro["default"])(_TextArea["default"])(_templateObjec
 }, function (props) {
   return props.iscomment && (0, _macro.css)(_templateObject6(), function (_ref5) {
     var theme = _ref5.theme;
-    return theme.colors.primary;
+    return theme.colors.secondary;
   }, function (_ref6) {
     var theme = _ref6.theme;
     return theme.colors.white5;

@@ -72,7 +72,6 @@ export default function AddUser(props) {
     userProfile.hoTen = values.hoTen;
     userProfile.maLoaiNguoiDung = values.maLoaiNguoiDung;
     const isAdmin = true;
-    console.log("Received values of form:", userProfile);
 
     dispatch(postAPIUpdateUserAction(userProfile, isAdmin));
   };

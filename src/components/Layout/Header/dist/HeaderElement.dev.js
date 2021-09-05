@@ -142,7 +142,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = _taggedTemplateLiteral(["\n  display: block;\n  font-size: 15px !important;\n  background-color: transparent;\n  border: none;\n  width: 480px;\n\n  ", "\n\n  ", " {\n    display: block !important;\n\n    position: absolute;\n    z-index: 9;\n    top: 70px;\n    left: 0 !important;\n    width: 100vw;\n    height: 100vh;\n    transform: ", ";\n    transition: all 0.85s ease;\n    opacity: ", ";\n    background-color: ", ";\n  }\n\n  ", " {\n    display: none;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: block;\n  font-size: 15px !important;\n  background-color: transparent;\n  border: none;\n  width: 490px;\n\n  ", "\n\n  ", " {\n    display: block !important;\n\n    position: absolute;\n    z-index: 9;\n    top: 70px;\n    left: 0 !important;\n    width: 100vw;\n    height: 100vh;\n    transform: ", ";\n    transition: all 0.85s ease;\n    opacity: ", ";\n    background-color: ", ";\n  }\n\n  ", " {\n    display: none;\n  }\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;

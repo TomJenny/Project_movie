@@ -46,7 +46,7 @@ export default function Home(props) {
       <div id="ShowTimes">
         <MultiSlickHome arrayFilm={arrayFilm} />
       </div>
-      <div id="Cinema">
+      <div id="Cineplex">
         <TabHomeShowTimes />
       </div>
       <div id="News">

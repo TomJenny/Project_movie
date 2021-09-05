@@ -105,7 +105,6 @@ export default function MovieTicket(props) {
     }
     if (changedValues.ScheduleId) {
       setQRCode(window.location.href + "checkout/" + changedValues.ScheduleId);
-      console.log(qRCode);
     }
   };
 
@@ -204,7 +203,7 @@ export default function MovieTicket(props) {
                         danger
                         book="true"
                       >
-                        BOOK NOW
+                        BOOK
                       </ButtonPrimaryStyled>
                     </S.MovieTicketFormItem>
                   </Row>

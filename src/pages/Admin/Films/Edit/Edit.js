@@ -108,7 +108,6 @@ export default function Edit(props) {
         }
       }
     }
-    console.log(filmObj);
     dispatch(postAPIUpdateFilmAction(formData));
   };
 
@@ -119,7 +118,6 @@ export default function Edit(props) {
         ? fileList[0].originFileObj
         : fileList[fileList.length - 1].originFileObj;
 
-    console.log(fileList);
     if (
       file.type === "image/jpeg" ||
       file.type === "image/jpg" ||

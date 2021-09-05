@@ -9,7 +9,6 @@ export const CommentContainer = styled.div`
   max-width: 580px;
   margin: 0 auto;
   height: auto;
-  /* overflow-y: auto; */
 `;
 
 export const CommentItemContainer = styled(Panel)`
@@ -17,7 +16,7 @@ export const CommentItemContainer = styled(Panel)`
   padding: 20px 20px 12px;
   height: auto;
   margin-bottom: 20px;
-  border-radius: 5px;
+  border-radius: 5px !important;
   background: white;
 
   &&& .ant-collapse-header {

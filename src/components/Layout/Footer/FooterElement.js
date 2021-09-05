@@ -1,8 +1,16 @@
 import { Link } from "react-router-dom";
 import { down } from "styled-breakpoints";
 import styled from "styled-components";
+import { GlassEffect } from "../../Styles/mixin";
+
 export const FooterContainer = styled.footer`
-  background-color: rgba(0, 0, 0, 0.5);
+  ${GlassEffect({
+    color: "0,0,0",
+    trans: 0.6,
+    blur: "0",
+    radius: "none",
+    border: "none",
+  })}
 
   padding: 20px !important;
   color: #949494;

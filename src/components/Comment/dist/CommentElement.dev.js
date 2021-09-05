@@ -116,7 +116,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  padding: 20px 20px 12px;\n  height: auto;\n  margin-bottom: 20px;\n  border-radius: 5px;\n  background: white;\n\n  &&& .ant-collapse-header {\n    padding: 0;\n  }\n\n  &&& .ant-divider {\n    margin: 10px 0 5px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  padding: 20px 20px 12px;\n  height: auto;\n  margin-bottom: 20px;\n  border-radius: 5px !important;\n  background: white;\n\n  &&& .ant-collapse-header {\n    padding: 0;\n  }\n\n  &&& .ant-divider {\n    margin: 10px 0 5px;\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -126,7 +126,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  max-width: 580px;\n  margin: 0 auto;\n  height: auto;\n  /* overflow-y: auto; */\n"]);
+  var data = _taggedTemplateLiteral(["\n  max-width: 580px;\n  margin: 0 auto;\n  height: auto;\n"]);
 
   _templateObject = function _templateObject() {
     return data;

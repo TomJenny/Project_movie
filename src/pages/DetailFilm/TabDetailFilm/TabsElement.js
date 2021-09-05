@@ -3,7 +3,6 @@ import { down } from "styled-breakpoints";
 import styled from "styled-components";
 
 export const TabMenuDetailFilmContainer = styled.div`
-  /* max-height: 870px; */
   max-width: 870px;
   width: 100%;
   margin: 0 auto;
@@ -18,7 +17,6 @@ export const TabMenuDetailFilmContainer = styled.div`
     letter-spacing: 2px !important;
     transform: scale(1.1);
     color: ${({ theme }) => theme.colors.white1};
-    filter: drop-shadow(0 2px 4px ${({ theme }) => theme.colors.white3});
     & span {
       display: none;
     }

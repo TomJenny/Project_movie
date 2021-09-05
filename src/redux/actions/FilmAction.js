@@ -42,8 +42,6 @@ export const postAPINewsFilmAction = (formData) => {
           dispatch(getAPIFilmAction());
         },
       });
-
-      console.log("result", result.data);
     } catch (errors) {
       alertFailure.title = "Add Failed";
       alertFailure.text = `${errors.response?.data}`;

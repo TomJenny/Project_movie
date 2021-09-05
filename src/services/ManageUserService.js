@@ -19,7 +19,6 @@ export class ManageUserService extends BaseService {
   };
 
   getListUsers = (accountName) => {
-    console.log(accountName);
     if (accountName) {
       return this.get(
         `api/QuanLyNguoiDung/LayDanhSachNguoiDung?MaNhom=${GROUPID}&tuKhoa=${accountName}`

@@ -14,6 +14,7 @@ export const ButtonPrimaryStyled = styled(Button)`
   ${(props) =>
     props.book &&
     css`
-      letter-spacing: 2px;
+      padding: 0 40px;
+      border-radius: 15px !important;
     `}
 `;

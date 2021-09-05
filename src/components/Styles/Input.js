@@ -80,7 +80,7 @@ export const SearchStyled = styled(Search)`
 export const TextAreaStyled = styled(TextArea)`
   &.ant-input {
     background: transparent !important;
-    color: solid ${({ theme }) => theme.colors.white1};
+    color:  ${({ theme }) => theme.colors.white1};
     border-left: none;
     border-top: none;
     border-right: none;
@@ -104,7 +104,7 @@ export const TextAreaStyled = styled(TextArea)`
       width: 100%;
 
       &.ant-input {
-        color: solid ${({ theme }) => theme.colors.primary};
+        color: ${({ theme }) => theme.colors.secondary};
       }
 
       &.ant-input:focus {

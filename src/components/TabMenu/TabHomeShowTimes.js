@@ -34,7 +34,7 @@ export default function TabHomeShowTimes(props) {
     <S.TabMenuContainer>
       <Container>
         <Row justify="center">
-          <TitleSection>SHOWING TIME</TitleSection>
+          <TitleSection>CINEPLEX</TitleSection>
         </Row>
         <S.TabsMenu
           tabPosition={responsive.isSm ? "top" : "left"}

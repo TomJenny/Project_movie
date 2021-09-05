@@ -11,7 +11,6 @@ import {
 export default function DoughnutChart() {
   const { arrayCinemaShowTimes } = useSelector((state) => state.CinemaReducer);
   const data = {
-    // labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
     datasets: [
       {
         data: [5.7, 2, 2.6, 1, 3, 3],

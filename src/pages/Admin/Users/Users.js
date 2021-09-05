@@ -154,7 +154,6 @@ export default function Users() {
   const data = arrayUsers;
 
   const onSearch = (value) => {
-    console.log(value);
     if (value) {
       dispatch(getAPIFindUserById(value));
     } else {
@@ -163,7 +162,6 @@ export default function Users() {
   };
 
   function onChange(pagination, filters, sorter, extra) {
-    console.log("params", pagination, filters, sorter, extra);
     setFilteredInfo(filters);
   }
 

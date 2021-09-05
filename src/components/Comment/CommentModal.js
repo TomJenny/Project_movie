@@ -31,7 +31,6 @@ export default function CommentModal(props) {
     dispatch({ type: SET_MODAL_INVISIBLE });
   };
   const onFinish = async (values) => {
-    console.log("Received values of form: ", values);
     const comment = new CommentObj();
     comment.userId = userLogin.hoTen;
     comment.comments = values.text;

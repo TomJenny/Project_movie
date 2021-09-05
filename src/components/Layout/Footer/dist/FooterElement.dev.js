@@ -11,6 +11,8 @@ var _styledBreakpoints = require("styled-breakpoints");
 
 var _styledComponents = _interopRequireDefault(require("styled-components"));
 
+var _mixin = require("../../Styles/mixin");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _templateObject12() {
@@ -124,7 +126,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  background-color: rgba(0, 0, 0, 0.5);\n\n  padding: 20px !important;\n  color: #949494;\n  text-align: center;\n\n  &&& ul {\n    list-style-type: none;\n    padding: 0;\n    & li {\n      margin-bottom: 20px;\n    }\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  ", "\n\n  padding: 20px !important;\n  color: #949494;\n  text-align: center;\n\n  &&& ul {\n    list-style-type: none;\n    padding: 0;\n    & li {\n      margin-bottom: 20px;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -135,7 +137,13 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var FooterContainer = _styledComponents["default"].footer(_templateObject());
+var FooterContainer = _styledComponents["default"].footer(_templateObject(), (0, _mixin.GlassEffect)({
+  color: "0,0,0",
+  trans: 0.6,
+  blur: "0",
+  radius: "none",
+  border: "none"
+}));
 
 exports.FooterContainer = FooterContainer;
 

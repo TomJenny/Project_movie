@@ -16,7 +16,6 @@ export default function BookTicket(props) {
   let listAlphabet = "A,B,C,D,E,F,G";
   const [count, setCount] = useState(5 * 60);
   let intervalRef = useRef();
-  console.log(count);
 
   const renderRowSeats = () => {
     return listAlphabet.split(",").map((char, index) => {

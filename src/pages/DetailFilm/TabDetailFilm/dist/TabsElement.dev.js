@@ -64,7 +64,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  /* max-height: 870px; */\n  max-width: 870px;\n  width: 100%;\n  margin: 0 auto;\n\n  transform: translateY(-70px);\n\n  &&& .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn a,\n  .ant-tabs-tab-btn:focus a,\n  .ant-tabs-tab-remove:focus a,\n  .ant-tabs-tab-btn:active a,\n  .ant-tabs-tab-remove:active a {\n    letter-spacing: 2px !important;\n    transform: scale(1.1);\n    color: ", ";\n    filter: drop-shadow(0 2px 4px ", ");\n    & span {\n      display: none;\n    }\n  }\n\n  ", " {\n    margin-top: 70px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  max-width: 870px;\n  width: 100%;\n  margin: 0 auto;\n\n  transform: translateY(-70px);\n\n  &&& .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn a,\n  .ant-tabs-tab-btn:focus a,\n  .ant-tabs-tab-remove:focus a,\n  .ant-tabs-tab-btn:active a,\n  .ant-tabs-tab-remove:active a {\n    letter-spacing: 2px !important;\n    transform: scale(1.1);\n    color: ", ";\n    & span {\n      display: none;\n    }\n  }\n\n  ", " {\n    margin-top: 70px;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -78,9 +78,6 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 var TabMenuDetailFilmContainer = _styledComponents["default"].div(_templateObject(), function (_ref) {
   var theme = _ref.theme;
   return theme.colors.white1;
-}, function (_ref2) {
-  var theme = _ref2.theme;
-  return theme.colors.white3;
 }, (0, _styledBreakpoints.down)("md"));
 
 exports.TabMenuDetailFilmContainer = TabMenuDetailFilmContainer;
