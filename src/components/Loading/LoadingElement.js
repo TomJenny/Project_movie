@@ -1,6 +1,11 @@
 import styled, { keyframes } from "styled-components";
 import { PUBLIC_URL } from "../../utils/setting";
 
+const fadeout = keyframes` 
+    from { opacity: 1; }
+    to   { opacity: 0; }
+`;
+
 export const LoadingImg = styled.img`
   position: absolute;
   top: 50%;
@@ -20,6 +25,12 @@ export const LoadingContainer = styled.div`
   background: url(${PUBLIC_URL}"/img/galaxy3.jpg");
   background-size: contain;
   transition: all 0.2s linear;
+  opacity: 0;
+    -webkit-animation: ${fadeout} 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: ${fadeout} 4s; /* Firefox < 16 */
+        -ms-animation: ${fadeout} 4s; /* Internet Explorer */
+         -o-animation: ${fadeout} 4s; /* Opera < 12.1 */
+            animation: ${fadeout} 4s;
 `;
 
 const rotateLoader = keyframes`

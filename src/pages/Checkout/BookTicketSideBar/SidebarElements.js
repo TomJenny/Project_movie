@@ -1,19 +1,6 @@
 import { Button } from "antd";
 import { down } from "styled-breakpoints";
-import styled, { css, keyframes } from "styled-components";
-
-const animationSideBar = keyframes`
-0%{
-  right: -100%;
-  opacity: 0;
-
-}
-100%{
-  right: 0;
-  opacity: 1;
-
-}
-`;
+import styled, { css } from "styled-components";
 
 export const SideBarContainer = styled.div`
   height: 100vh;
@@ -29,7 +16,6 @@ export const SideBarContainer = styled.div`
   -webkit-backdrop-filter: blur(2.5px);
 
   border: 1px solid rgba(255, 255, 255, 0.18);
-  animation: ${animationSideBar} 1s linear;
 
   ${(props) =>
     props.tabActive === "2" &&
