@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { down } from "styled-breakpoints";
 import styled, { css } from "styled-components/macro";
-import { ButtonPrimaryStyled } from "../../../components/Styles/Button";
-import { Container } from "../../../components/Styles/GlobalStyles";
+import { ButtonPrimaryStyled } from "../../components/Styles/Button";
+import { Container } from "../../components/Styles/GlobalStyles";
 
 export const TabsNewsContainer = styled(Container)`
   margin-top: 100px;

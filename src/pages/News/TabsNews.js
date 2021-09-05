@@ -1,8 +1,8 @@
 import { Row, Tabs } from "antd";
 import React, { Fragment, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { TitleTabsStyled } from "../../../components/Styles/Title";
-import { getAPINewsAction } from "../../../redux/actions/NewsAction";
+import { TitleTabsStyled } from "../../components/Styles/Title";
+import { getAPINewsAction } from "../../redux/actions/NewsAction";
 import TabSection from "./TabsChild/TabSection";
 import * as S from "./TabsNewsElement";
 

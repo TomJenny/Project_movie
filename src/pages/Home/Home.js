@@ -13,7 +13,7 @@ import {
   hideLoadingAction,
 } from "../../redux/actions/LoadingAction";
 import { GET_CAROUSEL } from "../../redux/actions/types/CarouselType";
-import TabNews from "../News/TabNewsContent/TabsNews";
+import TabNews from "../News/TabsNews";
 import HomeApp from "./App/HomeApp";
 import HomeCarousel from "./Carousel/HomeCarousel";
 import MovieTicket from "./MovieTicket/MovieTicket";
