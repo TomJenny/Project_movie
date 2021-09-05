@@ -56,7 +56,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral(["\n  margin: 80px 0 0;\n\n  /* ", " */\n  padding: 70px 20px 10px;\n  width: 100%;\n  height: 100%;\n  ", " {\n    margin: 0;\n    padding: 0 10px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  margin: 80px 0 0;\n\n  /* ", " */\n  padding: 70px 20px 10px;\n  width: 100%;\n  height: 100%;\n\n  ", " {\n    margin: 0;\n    padding: 0 10px;\n  }\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;

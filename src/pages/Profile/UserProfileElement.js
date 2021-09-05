@@ -46,6 +46,7 @@ export const ProfileForm = styled.div`
   padding: 70px 20px 10px;
   width: 100%;
   height: 100%;
+
   ${down("sm")} {
     margin: 0;
     padding: 0 10px;
