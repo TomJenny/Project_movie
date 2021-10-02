@@ -1,4 +1,3 @@
-// import { DOMAIN } from "./utils/setting";
 // ant design css
 import "antd/dist/antd.css";
 import React from "react";

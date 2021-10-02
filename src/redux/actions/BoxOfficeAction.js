@@ -22,9 +22,7 @@ export const getAPIListBoxOffice = (scheduleId) => {
         arrListBoxOffices: result.data,
       };
       dispatch(action);
-    } catch (error) {
-      return console.log("error", error.response?.data);
-    }
+    } catch (error) {}
   };
 };
 

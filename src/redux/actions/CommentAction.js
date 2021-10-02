@@ -10,9 +10,7 @@ export const getAPICommentsAction = () => {
         arrayComment: result.data,
       };
       dispatch(action);
-    } catch (error) {
-      console.log("error", error.response?.data);
-    }
+    } catch (error) {}
   };
 };
 export const getAPICommentsByIdAction = (id) => {
@@ -24,9 +22,7 @@ export const getAPICommentsByIdAction = (id) => {
         arrayCommentById: result.data,
       };
       dispatch(action);
-    } catch (error) {
-      console.log("error", error.response?.data);
-    }
+    } catch (error) {}
   };
 };
 export const postAPIAddCommentAction = (commentObj) => {
@@ -34,8 +30,6 @@ export const postAPIAddCommentAction = (commentObj) => {
     try {
       await manageCommentServices.postComment(commentObj);
       await dispatch(getAPICommentsByIdAction(commentObj.generalId));
-    } catch (error) {
-      console.log("error", error.response?.data);
-    }
+    } catch (error) {}
   };
 };

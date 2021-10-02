@@ -1,7 +1,7 @@
 import { manageCinemaService } from "../../services/ManageCinemaService";
 import {
-  GET_LIST_CINEMA_SHOW_TIMES,
   GET_FILM_SHOW_TIMES,
+  GET_LIST_CINEMA_SHOW_TIMES,
 } from "./types/CinemaType";
 
 export const getAPIListCinemaShowTimeAction = (cinema = "") => {
@@ -14,9 +14,7 @@ export const getAPIListCinemaShowTimeAction = (cinema = "") => {
       };
 
       dispatch(actions);
-    } catch (error) {
-      console.log("error", error);
-    }
+    } catch (error) {}
   };
 };
 export const getAPIFilmShowTimesAction = (filmID) => {
@@ -29,8 +27,6 @@ export const getAPIFilmShowTimesAction = (filmID) => {
       };
 
       dispatch(actions);
-    } catch (error) {
-      console.log("error", error);
-    }
+    } catch (error) {}
   };
 };

@@ -10,8 +10,6 @@ export const getAPINewsAction = () => {
         arrayInfo: result.data,
       };
       dispatch(action);
-    } catch (error) {
-      console.log("error", error.response?.data);
-    }
+    } catch (error) {}
   };
 };

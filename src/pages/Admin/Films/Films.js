@@ -195,12 +195,11 @@ export default function Films() {
   const data = arrayFilm;
 
   const onSearch = (value) => {
-    console.log(value);
     dispatch(getAPIFilmAction(value));
   };
 
   function onChange(pagination, filters, sorter, extra) {
-    console.log("params", pagination, filters, sorter, extra);
+    // console.log("params", pagination, filters, sorter, extra);
   }
 
   return (

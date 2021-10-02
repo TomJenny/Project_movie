@@ -21,9 +21,7 @@ export const getAPIFilmAction = (filmName = "") => {
       };
 
       dispatch(actions);
-    } catch (errors) {
-      console.log("errors", errors);
-    }
+    } catch (errors) {}
   };
 };
 
@@ -80,9 +78,7 @@ export const getAPIFilmByIdAction = (FilmId) => {
         type: SET_FILM_DETAIL,
         filmDetail: result.data,
       });
-    } catch (errors) {
-      console.log("errors", errors);
-    }
+    } catch (errors) {}
   };
 };
 

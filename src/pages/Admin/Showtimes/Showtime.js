@@ -81,9 +81,7 @@ export default function Showtime(props) {
           ...state,
           heThongRapChieu: result.data,
         });
-      } catch (error) {
-        console.log("error", error.response?.data);
-      }
+      } catch (error) {}
     })();
   }, []);
 
@@ -94,9 +92,7 @@ export default function Showtime(props) {
         ...state,
         cumRapChieu: result.data,
       });
-    } catch (error) {
-      console.log("error", error.response?.data);
-    }
+    } catch (error) {}
     setLabelValue({
       ...labelValue,
       cinema: value,

@@ -84,9 +84,7 @@ export const getAccountInfo = (accountName) => {
         accountInfo: result.data,
       };
       dispatch(action);
-    } catch (error) {
-      console.log("error", error.response?.data);
-    }
+    } catch (error) {}
   };
 };
 
@@ -99,9 +97,7 @@ export const getListUsers = (accountName) => {
         arrayUsers: result.data,
       };
       dispatch(action);
-    } catch (error) {
-      console.log("error", error.response?.data);
-    }
+    } catch (error) {}
   };
 };
 
@@ -191,8 +187,6 @@ export const getAPIFindUserById = (account) => {
       };
 
       dispatch(action);
-    } catch (errors) {
-      console.log("errors", errors.response?.data);
-    }
+    } catch (errors) {}
   };
 };
