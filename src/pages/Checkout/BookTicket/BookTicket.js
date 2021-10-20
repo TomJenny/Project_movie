@@ -13,12 +13,12 @@ export default function BookTicket(props) {
     ?.split("-")[0]
     .trim()
     .replace(/\s+/g, "");
-  let listAlphabet = "A,B,C,D,E,F,G";
+  let listAlphabet = "ABCDEFG";
   const [count, setCount] = useState(5 * 60);
   let intervalRef = useRef();
 
   const renderRowSeats = () => {
-    return listAlphabet.split(",").map((char, index) => {
+    return [...listAlphabet].map((char, index) => {
       return (
         <Row key={index} justify="center" align="middle">
           <Col span={2}>

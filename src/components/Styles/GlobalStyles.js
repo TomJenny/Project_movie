@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 
  body{
     font-size: 15px;
-    background: url(${PUBLIC_URL}  '/img/galaxy3.jpg');
+    background: url(${PUBLIC_URL}'/img/galaxy3.jpg');
     background-size:contain;
     
     color:${({ theme }) => theme.colors.white1};

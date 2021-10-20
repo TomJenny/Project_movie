@@ -38,6 +38,7 @@ export default function Checkout(props) {
 
       await dispatch(hideLoadingAction);
     })();
+
     return async () => {
       await dispatch({
         type: DISPLAY_SIDEBAR,
