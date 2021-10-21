@@ -107,10 +107,10 @@ export default function FooterComponent(props) {
           <Col span={24} md={{ span: 17 }}>
             <S.FooterContentCompany>
               <S.FooterTitleCompany>
-                CINEMA – PRODUCTION OF CINEMA COMPANY
+                CINEMA – PRODUCTION OF EXAMPLE COMPANY
               </S.FooterTitleCompany>
               <p>
-                Email: tin.quachtrung@gmail.com
+                This website is cloned for educational purposes
                 <br />
                 &copy; Copyright {currentYear}, Example Corporation
               </p>
