@@ -61,7 +61,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 $ git clone https://github.com/TomJenny/Project_movie.git
 
 # Access the frontend repo
-$ cd weather-react-app/frontend
+$ cd project_movie
 
 # Install dependencies
 $ npm install
