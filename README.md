@@ -11,8 +11,10 @@
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="https://github.com/TomJenny" target="_blank">Author</a>
 </p>
+<p align="center">
   <a href="https://jenny-project-movie.web.app/">Demo</a>
   <a href="https://jenny-project-movie.web.app/admin">Demo Admin</a>
+  </p>
 &#xa0;
 
 ## :dart: About ##
