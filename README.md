@@ -1,7 +1,4 @@
 
-  <a href="https://jenny-project-movie.web.app/">Demo</a>
-  <a href="https://jenny-project-movie.web.app/admin">Demo Admin</a>
-</div>
 
 <h1 align="center">MOVIE TICKETS BOOKING APP</h1>
 
@@ -14,7 +11,8 @@
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="https://github.com/TomJenny" target="_blank">Author</a>
 </p>
-
+  <a href="https://jenny-project-movie.web.app/">Demo</a>
+  <a href="https://jenny-project-movie.web.app/admin">Demo Admin</a>
 &#xa0;
 
 ## :dart: About ##
