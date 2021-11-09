@@ -25,10 +25,10 @@ This website is used for online movie ticket booking.
 :heavy_check_mark: Login;\
 :heavy_check_mark: Sign in;\
 :heavy_check_mark: Book ticket;\
-:heavy_check_mark: Comment and rate on the movie;\
+:heavy_check_mark: Comments and rating;\
 :heavy_check_mark: Watch trailer and information of movie;\
 :heavy_check_mark: Showtime and comming soon;\
-:heavy_check_mark: News and Review;\
+:heavy_check_mark: News and Reviews;\
 :heavy_check_mark: View information of user account;\
 :heavy_check_mark: View history Booking of user;\
 :heavy_check_mark: User Management (Add/Delete/Edit);\
