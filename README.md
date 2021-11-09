@@ -1,7 +1,3 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Weather React App" />
-
-  &#xa0;
 
   <a href="https://jenny-project-movie.web.app/">Demo</a>
   <a href="https://jenny-project-movie.web.app/admin">Demo Admin</a>
